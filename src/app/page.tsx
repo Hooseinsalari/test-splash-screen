@@ -1,7 +1,6 @@
 "use client";
 
 import SplashScreen from "@/components/SplashScreen";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {

@@ -32,7 +32,7 @@ function SplashScreen({ finishLoading }: SplashScreenProps) {
     screenLoader();
   }, []);
 
-  // if (isMounted || !isPWA) return null;
+  if (isMounted || !isPWA) return null;
 
   return (
     <>
